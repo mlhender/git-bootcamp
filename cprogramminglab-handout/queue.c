@@ -1,4 +1,4 @@
-/* 
+/*
  * Code for basic C skills diagnostic.
  * Developed for courses 15-213/18-213/15-513 by R. E. Bryant, 2017
  * Modified to store strings, 2018
@@ -24,6 +24,7 @@
 */
 queue_t *q_new()
 {
+    testtestest
     queue_t *q =  malloc(sizeof(queue_t));
     /* What if malloc returned NULL? */
     q->head = NULL;
